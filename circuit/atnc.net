@@ -1,0 +1,309 @@
+# EESchema Netlist Version 1.1 created 2016/02/19 19:13:34
+(
+ ( /56C6EA2B $noname C1 0.1u
+   (  1 GND  )
+   (  2 V50  )
+ )
+ ( /56C6EA2B $noname C2 22
+   (  1 N00000  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname C3 22
+   (  1 N00001  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname C4 0.1u
+   (  1 GND  )
+   (  2 N00002  )
+ )
+ ( /56C6EA2B $noname C5 0.1u
+   (  1 V50  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname C6 22
+   (  1 N00026  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname C7 22
+   (  1 N00027  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname C8 0.1u
+   (  1 N00028  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname C9 0.1u
+   (  1 RESET  )
+   (  2 N00029  )
+ )
+ ( /56C6EA2B $noname C10 0.1u
+   (  1 GND  )
+   (  2 V50  )
+ )
+ ( /56C6EA2B $noname C11 0.01u
+   (  1 N00005  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname C12 27n
+   (  1 N00011  )
+   (  2 N00010  )
+ )
+ ( /56C6EA2B $noname C13 10n
+   (  1 GND  )
+   (  2 N00006  )
+ )
+ ( /56C6EA2B $noname C14 0.1u
+   (  1 GND  )
+   (  2 N00012  )
+ )
+ ( /56C6EA2B $noname C15 2.2n
+   (  1 GND  )
+   (  2 N00009  )
+ )
+ ( /56C6EA2B $noname C16 1n
+   (  1 N00018  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname C17 0.1u
+   (  1 N00022  )
+   (  2 N00019  )
+ )
+ ( /56C6EA2B $noname C18 0.1u
+   (  1 GND  )
+   (  2 N00020  )
+ )
+ ( /56C6EA2B $noname C19 0.1u
+   (  1 N00030  )
+   (  2 N00023  )
+ )
+ ( /56C6EA2B $noname C20 0.1u
+   (  1 N00015  )
+   (  2 N00031  )
+ )
+ ( /56C6EA2B $noname C21 0.1u
+   (  1 GND  )
+   (  2 N00017  )
+ )
+ ( /56C6EA2B $noname C22 0.1u
+   (  1 FSK  )
+   (  2 N00016  )
+ )
+ ( /56C6EA2B $noname C23 0.1u
+   (  1 GND  )
+   (  2 V50  )
+ )
+ ( /56C6EA2B $noname CN1 USB-B
+   (  1 V50  )
+   (  2 N00024  )
+   (  3 N00025  )
+   (  4 GND  )
+ )
+ ( /56C6EA2B $noname CN2 AVRISP
+   (  1 MISO  )
+   (  2 V50  )
+   (  3 SCK  )
+   (  4 MOSI  )
+   (  5 RESET  )
+   (  6 GND  )
+ )
+ ( /56C6EA2B $noname CN3 B4B-PH
+   (  1 PTT  )
+   (  2 N00030  )
+   (  3 N00031  )
+   (  4 GND  )
+ )
+ ( /56C6EA2B $noname D1 LED
+   (  1 N00003  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname D2 LED
+   (  1 N00004  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname I1 ATMEGA328
+   (  2 PTT  )
+   (  3 GND  )
+   (  4 V50  )
+   (  5 GND  )
+   (  6 V50  )
+   (  7 N00000  )
+   (  8 N00001  )
+   (  10 LED1  )
+   (  11 LED2  )
+   (  12 lock  )
+   (  13 data  )
+   (  15 MOSI  )
+   (  16 MISO  )
+   (  17 SCK  )
+   (  18 V50  )
+   (  20 N00002  )
+   (  21 GND  )
+   (  23 DA0  )
+   (  24 DA1  )
+   (  25 DA2  )
+   (  26 DA3  )
+   (  29 RESET  )
+   (  30 RXD  )
+   (  31 TXD  )
+ )
+ ( /56C6EA2B $noname I2 CH340G
+   (  1 GND  )
+   (  2 TXD  )
+   (  3 RXD  )
+   (  4 N00028  )
+   (  5 N00025  )
+   (  6 N00024  )
+   (  7 N00026  )
+   (  8 N00027  )
+   (  13 N00029  )
+   (  16 V50  )
+ )
+ ( /56C6EA2B $noname I3 NJM2211
+   (  1 V50  )
+   (  2 FSK  )
+   (  3 N00005  )
+   (  4 GND  )
+   (  5 lock  )
+   (  6 data  )
+   (  7 data  )
+   (  8 N00009  )
+   (  10 N00012  )
+   (  11 N00006  )
+   (  12 N00007  )
+   (  13 N00011  )
+   (  14 N00010  )
+ )
+ ( /56C6EA2B $noname I4 NJM2732
+   (  1 N00023  )
+   (  2 N00021  )
+   (  3 N00020  )
+   (  4 GND  )
+   (  5 N00017  )
+   (  6 N00014  )
+   (  7 N00016  )
+   (  8 V50  )
+ )
+ ( /56C6EA2B $noname R1 10k
+   (  1 V50  )
+   (  2 RESET  )
+ )
+ ( /56C6EA2B $noname R2 1k
+   (  1 N00003  )
+   (  2 LED1  )
+ )
+ ( /56C6EA2B $noname R3 1k
+   (  1 N00004  )
+   (  2 LED2  )
+ )
+ ( /56C6EA2B $noname R4 5.1k
+   (  1 V50  )
+   (  2 data  )
+ )
+ ( /56C6EA2B $noname R5 5.1k
+   (  1 V50  )
+   (  2 lock  )
+ )
+ ( /56C6EA2B $noname R6 470k
+   (  1 GND  )
+   (  2 N00005  )
+ )
+ ( /56C6EA2B $noname R7 30k
+   (  1 N00007  )
+   (  2 N00006  )
+ )
+ ( /56C6EA2B $noname R8 18k
+   (  1 N00008  )
+   (  2 N00007  )
+ )
+ ( /56C6EA2B $noname R9 100k
+   (  1 N00006  )
+   (  2 N00009  )
+ )
+ ( /56C6EA2B $noname R10 510k
+   (  1 N00009  )
+   (  2 data  )
+ )
+ ( /56C6EA2B $noname R11 1k
+   (  1 DA3  )
+   (  2 N00013  )
+ )
+ ( /56C6EA2B $noname R12 2k
+   (  1 DA2  )
+   (  2 N00013  )
+ )
+ ( /56C6EA2B $noname R13 3.9k
+   (  1 DA1  )
+   (  2 N00013  )
+ )
+ ( /56C6EA2B $noname R14 8.2k
+   (  1 DA0  )
+   (  2 N00013  )
+ )
+ ( /56C6EA2B $noname R15 100k
+   (  1 N00013  )
+   (  2 N00018  )
+ )
+ ( /56C6EA2B $noname R16 4.7k
+   (  1 N00022  )
+   (  2 N00021  )
+ )
+ ( /56C6EA2B $noname R17 4.7k
+   (  1 N00021  )
+   (  2 N00023  )
+ )
+ ( /56C6EA2B $noname R18 10k
+   (  1 V50  )
+   (  2 N00020  )
+ )
+ ( /56C6EA2B $noname R19 10k
+   (  1 N00020  )
+   (  2 GND  )
+ )
+ ( /56C6EA2B $noname R20 51k
+   (  1 N00015  )
+   (  2 N00014  )
+ )
+ ( /56C6EA2B $noname R21 100k
+   (  1 N00014  )
+   (  2 N00016  )
+ )
+ ( /56C6EA2B $noname R22 100k
+   (  1 N00017  )
+   (  2 V50  )
+ )
+ ( /56C6EA2B $noname R23 100k
+   (  1 GND  )
+   (  2 N00017  )
+ )
+ ( /56C6EA2B $noname T1 VIS
+   (  1 GND  )
+ )
+ ( /56C6EA2B $noname T2 VIS
+   (  1 GND  )
+ )
+ ( /56C6EA2B $noname T3 VIS
+   (  1 GND  )
+ )
+ ( /56C6EA2B $noname T4 VIS
+   (  1 GND  )
+ )
+ ( /56C6EA2B $noname VR1 PVZ3-5k
+   (  1 GND  )
+   (  2 GND  )
+   (  3 N00008  )
+ )
+ ( /56C6EA2B $noname VR2 PVZ3-50k
+   (  1 GND  )
+   (  2 N00019  )
+   (  3 N00018  )
+ )
+ ( /56C6EA2B $noname X1 8MHz
+   (  1 N00000  )
+   (  2 N00001  )
+ )
+ ( /56C6EA2B $noname X2 12MHz
+   (  1 N00026  )
+   (  2 N00027  )
+ )
+)
+*
